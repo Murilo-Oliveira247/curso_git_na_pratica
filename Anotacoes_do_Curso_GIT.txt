@@ -14,7 +14,7 @@ Para exibir no Explorador de Arquivos (Windows 11):
 
 ===================================================================================
 
-GITHUB 
+ENVIANDO REPOSITÓRIO PARA O GITHUB:
 
 - É um serviço para gerenciar repositórios, gratuitos e amplamente utilizado;
 - Precisamos criar o projeto no GitHub, inicializar o mesmo no git em nossa máquina, sincronizar com o GH e enviar;
@@ -50,5 +50,46 @@ ADICIONANDO ARQUIVOS NO PROJETO:
 
 > Para adicionar um arquivo especifico: "git add --nome do arquivo--"
 > Para adicionar todos os arquivos da pasta do projeto: "git add ."
+
+===================================================================================
+
+SALVANDO AS ALTERAÇÕES DO PROJETO:
+
+- As alterações salvas do projeto são realizadas pelo o comando: "git commit"
+- Podemos commitar "arquivos específicos" ou vários de uma vez com a flag -a (-a vem de All que significa todos)
+- É uma boa prática enviar "uma mensagem a cada commit", com as alterações que foram feitas;
+- A mensagem pode ser adicionada com a flag -m (-m vem de mensage que significa mensagem);
+
+===================================================================================
+
+ENVIANDO CÓDIGO AO REPO REMOTO:
+
+- Quando finalizamos uma funcionalidade nova, "enviamos o código ao repositório remoto", que é código-fonte;
+- Está ação é feita pelo comando "git push";
+- Após esta ação "o código do servidor será atualizado baseando-se no código local" enviado;
+
+> Não pode conter nenhuma mensagem dentro do "git status" para efetuar o "git push";
+
+===================================================================================
+
+RECEBENDO AS MUDANÇAS:
+
+- É comum também ter que "sincronizar o local" com mudanças do remoto;
+- Esta ação é feita pelo o comando "git pull";
+- Após o comando serão "buscada atualizações", se elas forem encontradas "serão unidas ao código atual" existente na nossa máquina;
+
+===================================================================================
+
+CLONANDO REPOSITÓRIOS:
+
+- O ato de baixar um repositório de um servidor remoto é chamado de "clonar repositório";
+- Para esta ação utilizamos o comando: "git clone";
+- Passando a "referência" do repositório remoto;
+- Este comando é utilizando quando "entramos em um novo projeto", por exemplo;
+
+
+
+
+
 
 
