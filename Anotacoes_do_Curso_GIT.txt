@@ -21,4 +21,34 @@ GITHUB
 - E esta sequência que parece ser complexa é facilmente executada por poucos comandos;
 - Vale lembrar que fazemos uma vez por projeto este fulxo;
 - Porém alguns dos comandos utilizados vão ser úteis ao longo do curso;
--  
+
+===================================================================================
+
+VERIFICANDO MUDANÇAS NO PROJETO
+
+- As mudanças do projeto podem ser verificadas pelo o comando: "git status";
+- Comando utilizado com muita frequência;
+- Aqui é mapeado todas as alterações feitas no projeto;
+- Como: arquivos não monitorados e arquivos modificados;
+- Podem também dizer que é a diferença do que já está enviando ao servidor ou salvo no projeto;
+
+- Sobre as cores e letras no VS Code:
+	- U (verde): arquivo novo, ainda não rastreado
+	- A (verde): arquivo adicionado com git add
+	- M (amarelo/laranja): arquivo modificado
+	- sem marcação: nada mudou desde o último commit
+
+===================================================================================
+
+ADICIONANDO ARQUIVOS NO PROJETO:
+
+- Para adicionar arquivos novos a um projeto utilizamos o comando: "git add";
+- Podemos adicionar "um arquivo" especifico como também "diversos de uma vez só";
+- Somente adicionando arquivos eles serão monitorados pelo git;
+- Ou seja, "se não adicionar ele não estará" no controle de versão;
+- É interessante utilizar este comando de tempos em tempos para não perder algo por descuido;
+
+> Para adicionar um arquivo especifico: "git add --nome do arquivo--"
+> Para adicionar todos os arquivos da pasta do projeto: "git add ."
+
+
